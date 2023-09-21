@@ -3,17 +3,22 @@ Console.WriteLine("===Start a new game==\nType 'Start' or 'S' to play ");
 
 string startGame = Console.ReadLine()!;
 
-if(!(startGame.Equals("Start", StringComparison.OrdinalIgnoreCase) || startGame.Equals("S", StringComparison.OrdinalIgnoreCase))){
+
+
+while (!(startGame.Equals("Start", StringComparison.OrdinalIgnoreCase) || startGame.Equals("S", StringComparison.OrdinalIgnoreCase))){
+     Console.ForegroundColor = ConsoleColor.Red;
      Console.WriteLine("Oops enter the right input");
-     return;
+    Console.ResetColor();
+Console.WriteLine("===Start a new game==\nType 'Start' or 'S' to play ");
+ startGame  =  Console.ReadLine()!;
 }
 
 
 Random rand = new();
 
-int dice1 = rand.Next(1,7);
-int dice2 = rand.Next(1,7);
-int dice3 = rand.Next(1,7);
+int dice1 = 3;
+int dice2 = 3;
+int dice3 = 3;
 int originalScore = dice1 + dice2 + dice3;
 int doublePoint = 2;
 int triplePoint = 3;
@@ -31,15 +36,17 @@ if(dice1 == dice2 && dice2 == dice3){
 }
 
 else if (dice1 == dice2 || dice2 ==dice3 || dice1 == dice3)
-{Console.WriteLine("you scored a double point");
+{
+    Console.WriteLine("you scored a double point");
         totalPoint = originalScore + doublePoint;
- System.Console.WriteLine($"You scored {totalPoint} points ");
+    Console.WriteLine($"you scored {totalPoint}");
+    return;
 }
 
 if (totalPoint >= 10 && totalPoint <= 13)
 {
    System.Console.WriteLine("congratulations you win a ballon"); 
-   System.Console.WriteLine(totalPoint);
+   
    
 }
 
@@ -63,6 +70,7 @@ System.Console.WriteLine($"You scored {totalPoint} points ");
 
 else
 {
-    System.Console.WriteLine("try again");
+    System.Console.WriteLine("Nice Try");
+    totalPoint = originalScore;
     System.Console.WriteLine($"You scored {totalPoint} points ");
 }

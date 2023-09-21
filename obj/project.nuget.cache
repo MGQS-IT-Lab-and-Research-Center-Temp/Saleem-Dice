@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "n3JL4GRrmXraQ7hHnURHRUOEsS1cfVAk3lgFNHVIqZH36LSt85ESfq1kjluYVJOYgIsdGO6hsCRxJywObkQDXg==",
+  "dgSpecHash": "P8MezSEB3anwWSGof/VIqNM1zPsb8kQQd5Nplp4mxGccc70IJkn7zn8TwfuHynyJU7FF9m78TADLMYnSL7J8Iw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\salee\\desktop\\projects\\Dice\\Dice.csproj",
+  "projectFilePath": "C:\\Users\\salee\\desktop\\projects\\dice\\Dice.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

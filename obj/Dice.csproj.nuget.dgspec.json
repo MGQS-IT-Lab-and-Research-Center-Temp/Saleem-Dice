@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\salee\\desktop\\projects\\Dice\\Dice.csproj": {}
+    "C:\\Users\\salee\\desktop\\projects\\dice\\Dice.csproj": {}
   },
   "projects": {
-    "C:\\Users\\salee\\desktop\\projects\\Dice\\Dice.csproj": {
+    "C:\\Users\\salee\\desktop\\projects\\dice\\Dice.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\salee\\desktop\\projects\\Dice\\Dice.csproj",
+        "projectUniqueName": "C:\\Users\\salee\\desktop\\projects\\dice\\Dice.csproj",
         "projectName": "Dice",
-        "projectPath": "C:\\Users\\salee\\desktop\\projects\\Dice\\Dice.csproj",
+        "projectPath": "C:\\Users\\salee\\desktop\\projects\\dice\\Dice.csproj",
         "packagesPath": "C:\\Users\\salee\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\salee\\desktop\\projects\\Dice\\obj\\",
+        "outputPath": "C:\\Users\\salee\\desktop\\projects\\dice\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\salee\\AppData\\Roaming\\NuGet\\NuGet.Config",
